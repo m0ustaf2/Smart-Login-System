@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container my-5">
+        <div class=" p-5 m-auto shadow-lg text-center inner">
+            <h1>Smart Login System</h1>
+            <input id="signupName"  class="form-control my-3 bg-transparent text-white " placeholder="Enter your name" type="text" required>
+                <div id="nameInvalid" class=" alert alert-danger d-none">Name should include at least 3 letters starting with capital, second name is optional</div>
+            <input id="signupEmail" class="form-control my-3 bg-transparent text-white " placeholder="Enter your email" type="email"required>
+                <div id="emailInvalid" class=" alert alert-danger d-none">Email should be  name@example.com</div>
+
+            <input id="signupPassword" class="form-control my-3  bg-transparent text-white " placeholder="Enter  password" type="password"required>
+                <div id="passwordInvalid" class=" alert alert-danger d-none">you must strenth your password,start with uppercase from 5 to 15 characters</div>
+
+            <p id="error" class="alert alert-danger  d-none">YOU MUST FILL ALL THESE INPUTS FIRST !!</p>
+            <p id="exist" class=" alert alert-danger  d-none">"Email already exists.please try another one"</p>
+            <p id="success" class="alert alert-success d-none">Success,press on Signin now</p>
+            <button id="btn-signup"  class="btn  w-100 my-3">Sign Up</button>
+            <p class="text-white">You have an account? <a class="text-white" href="./login.html">Signin</a></p>
+    
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main-1.js"></script>
+</body>
+</html>
+
+

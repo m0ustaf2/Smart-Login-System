@@ -1,0 +1,31 @@
+body{
+    background-color: #24353F;
+    font-family: "Titillium Web", sans-serif;
+    
+}
+div h1{
+    color: rgb(23, 162, 184);
+    font-size: 40px;
+}
+.inner{
+    width: 65% !important;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px !important;
+}    
+.inner a{
+    text-decoration: none;
+}  
+.inner a:hover{
+    text-decoration: underline;
+}     
+.form-control:focus
+{
+    box-shadow: none;
+}                               
+button{
+    color: rgb(23, 162, 184) !important;
+    border-color: rgb(23, 162, 184) !important;
+}
+button:hover{
+    color: white !important;
+    background-color:rgb(23, 162, 184) !important ;
+}

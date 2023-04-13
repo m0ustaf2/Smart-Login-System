@@ -1,0 +1,29 @@
+body{
+    background-color: #24353F;
+    font-family: "Titillium Web", sans-serif;
+    
+}
+.inner{
+    width: 65% !important;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px !important;
+}    
+
+                    
+.nav-bar{
+    background-color: #24353F !important;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px !important;
+
+}
+.logout
+{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important ;
+}
+.inner-cont{
+    margin-top: 200px !important;
+}
+.inner-cont p{
+    color: rgb(23, 162, 184) !important;
+    font-size: 40px;
+}
